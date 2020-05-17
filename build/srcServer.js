@@ -1,11 +1,10 @@
-var express = require('express');
-var path = require('path');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
-var open = require('open');
+const port = 3000;
 
-var port = 3000;
-
-var app = express();
+const app = express();
 
 //declarar routing
 app.get('/', function (req, res) {
