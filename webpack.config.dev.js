@@ -2,7 +2,7 @@ import path from 'path';
 
 export default {
   debug: true,
-  devtool: 'inline-source-map',
+  devtool: 'inline-source-map', // SOURCE MAP TO MINIMY (AND UNDERSTAND) BROWSER TRANSPILED/BUNDLED CODE
   noinfo: false,
   entry: [
     path.resolve(__dirname, 'src/index')
